@@ -3,6 +3,12 @@ import React from 'react'
 function Food({ obj }) {
   return (
     <div className="box">
+      <p className="control has-icons-left">
+        <input className="input is-small" type="text" placeholder="search" />
+        <span className="icon is-small is-left">
+          <i className="fas fa-search" aria-hidden="true" />
+        </span>
+      </p>
       <article className="media">
         <div className="media-left">
           <figure className="image is-64x64">
